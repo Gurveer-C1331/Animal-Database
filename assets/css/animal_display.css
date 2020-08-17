@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 1248px; 
+  height: 702px;
+  font-family: "Montserrat";
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+
+.sidebar-container {
+  background-color: #F2F2F2;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  padding: .8em 2em;
+  background-color: #FAFAFA;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: #DEFFED;
+}
+
+ul li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: .9em;
+  color: #666666;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.6em;
+  color: #666666;
+  background-color: #F2F2F2;
+  padding: .7em .7em;
+  margin: 0 0 3em 0;
+}
+
+.title:hover {
+  background-color: #F2F2F2;
+}
+
+#search {
+  background-color: #DEFFED;
+}
+
+#search a{
+  font-weight: 500;
+  color: #2BAE66;
+}
+
+main {
+  position: relative;
+}
+
+.main-container {
+  position: absolute;
+  top: 9.08%;
+  left: 7.7%;
+  height: 75%;
+  width: 80%;
+  background-color: #F2F2F2;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 1.5em;
+}
+
+.left-container {
+  margin-right: 3em;
+}
+
+.name-title {
+  font-weight: 700;
+  font-size: 1.4em;
+  color: #666666;
+  margin: 0;
+}
+
+.facts-container {
+  display: grid;
+  margin-top: 3em;
+}
+
+.header {
+  font-weight: 500;
+  color: #B9B9B9;
+  font-size: .75em;
+  border-bottom: 1px solid #B9B9B9;
+  margin: .6em 0 .4em 0;
+}
+
+.info-text {
+  font-weight: 400;
+  color: #666666;
+  font-size: .9em;
+  margin-bottom: .6em;
+}
+
+.map-container {
+  margin-top: 1em;
+}
+
+.antarctica {
+  margin-left: 3em;
+  width: 75%;
+}
+
+.image {
+  position: relative;;
+  height: 70%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.image img {
+  object-fit: cover;
+}
+
+.button {
+  display: block;
+  height: 1.2em;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  color: #FFF;
+  background-color:#2BAE66;
+  padding: 1em 2em;
+  margin: 6.6em 0 0 15em;
+  border-radius: 15px;
+}
+
+.no-display {
+  display: none;
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 1014px;
+  height: 791px;
+  font-family: "Montserrat";
+  display: grid;
+  grid-template-rows: 2% 78% 20%;
+}
+
+.top-bar {
+  background-color: #2BAE66;
+  -webkit-app-region: drag;
+  position: relative;
+  width: 1015px;
+}
+
+.map-container {
+  padding: 1em 1em 1em 0;
+}
+
+.bottom-container {
+  padding: 1em;
+}
+
+.radio-container {
+  position: absolute;
+  right: 4%;
+  bottom: 13.5%;
+}
+
+.button-container {
+  display: flex;
+  margin: 0 21.7em;
+}
+
+.button {
+  display: block;
+  height: 1.5em;
+  width: 8em;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  color: #FFF;
+  background-color:#2BAE66;
+  padding: .8em 0em;
+  margin: 0 .5em;
+  border-radius: 15px;
+}
+
+.button img {
+  width: 18%;
+}
+
+.sub-container {
+  display: flex;
+}
+
+#done-button {
+  margin: 1em 1em 0 0;
+  height: 1.1em;
+  padding: 1em 0;
+}
+
+.info-container {
+  display: flex;
+  background-color: #F2F2F2;
+  color: #666666;
+  border-radius: 15px;
+  padding: .5em 1.4em;
+  margin: 1em 7.7em 0 16.7em;
+}
+
+.info-container img {
+  padding-right: 1em;
+  padding-top: .2em;
+  height: 30px;
+  width: 30px;
+}
+
+.info-container p {
+  font-size: .8em;
+  padding: .8em 0;
+}

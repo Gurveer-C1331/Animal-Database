@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="365" height="180" viewBox="0 0 365 180">
+  <g id="Group_39" data-name="Group 39" transform="translate(-419 -783)">
+    <text id="Herbivores" transform="translate(674 846.004)" fill="#696969" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Herbivores</tspan></text>
+    <rect id="Rectangle_32" data-name="Rectangle 32" width="20" height="20" transform="translate(644 829)" fill="#2bae66"/>
+    <text id="Carnivores" transform="translate(674 880)" fill="#696969" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Carnivores</tspan></text>
+    <text id="Omnivores" transform="translate(674 914)" fill="#696969" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Omnivores</tspan></text>
+    <rect id="Rectangle_33" data-name="Rectangle 33" width="20" height="20" transform="translate(644 863)" fill="#33cd78"/>
+    <rect id="Rectangle_34" data-name="Rectangle 34" width="20" height="20" transform="translate(644 897)" fill="#53d48d"/>
+    <g id="Ring_Chart0" data-name="Ring Chart0" transform="translate(71 266)">
+      <path id="Path_11" data-name="Path 11" d="M-1.113-91.5A89.645,89.645,0,0,1,84.108-29.312,90.221,90.221,0,0,1,51.557,71.312a89.29,89.29,0,0,1-105.339,0l10.361-14.324a71.725,71.725,0,0,0,84.617,0A72.473,72.473,0,0,0,67.343-23.84,72.01,72.01,0,0,0-1.113-73.8Z" transform="translate(439.5 608.5)" fill="#2bae66"/>
+      <path id="Path_12" data-name="Path 12" d="M-53.782,71.025A89.082,89.082,0,0,1-91.5-1.5,89.082,89.082,0,0,1-53.782-74.025L-43.2-59.758A71.558,71.558,0,0,0-73.5-1.5,71.558,71.558,0,0,0-43.2,56.758Z" transform="translate(439.5 608.5)" fill="#33cd78"/>
+      <path id="Path_13" data-name="Path 13" d="M-53.782-74.025A91.5,91.5,0,0,1,0-91.5v18A73.5,73.5,0,0,0-43.2-59.463Z" transform="translate(438.623 608.5)" fill="#53d48d"/>
+    </g>
+  </g>
+</svg>
