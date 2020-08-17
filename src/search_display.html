@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Animal Database</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="../assets/css/search_display.css"> 
+  </head>
+  <body>
+    <aside class="sidebar-container">
+      <h2 class="title">ANIMAL DATABASE</h2>
+      <nav>
+        <ul>
+          <li id="home"><a href="home.html">HOME</a></li>
+          <li id="stats"><a href="stats.html">STATS</a></li>
+          <li id="add"><a href="add.html">ADD</a></li>
+          <li id="remove"><a href="remove.html">REMOVE</a></li>
+          <li id="edit"><a href="#">EDIT</a></li>
+          <li id="search"><a href="search.html">SEARCH</a></li>
+          <li id="display"><a href="display.html">DISPLAY</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main>
+      <div class="main-container">
+        <div class="list-container" id="list-container">
+          
+        </div>
+        <div class="side-container">
+          <a href="#" class="button" id="learn-button">LEARN</a>
+          <div class="info-container">
+            <img src="../assets/images/information.svg" alt="">
+            <p>Select an animal and click learn to learn about an animal</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="search_display.js"></script>
+  </body>
+</html>
+ 

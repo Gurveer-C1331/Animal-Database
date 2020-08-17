@@ -1,0 +1,8 @@
+['Status', '# of Animals']
+['Least Concern', 20]
+['Near Threatened', 1]
+['Vulnerable', 9]
+['Endangered', 8]
+['Critically Endangered', 3]
+['Extinct in the Wild', 1]
+['Extinct', 0]

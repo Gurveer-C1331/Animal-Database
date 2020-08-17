@@ -1,0 +1,6 @@
+['Class', '# of Animals']
+['Mammal', 33]
+['Bird', 6]
+['Reptile', 3]
+['Amphibian', 0]
+['Fish', 0]

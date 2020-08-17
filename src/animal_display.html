@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Animal Database</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src * https://www.gstatic.com/charts/loader.js 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="../assets/css/animal_display.css"> 
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+  </head>
+  <body>
+    <aside class="sidebar-container">
+      <h2 class="title">ANIMAL DATABASE</h2>
+      <nav>
+        <ul>
+          <li id="home"><a href="home.html">HOME</a></li>
+          <li id="stats"><a href="stats.html">STATS</a></li>
+          <li id="add"><a href="add.html">ADD</a></li>
+          <li id="remove"><a href="remove.html">REMOVE</a></li>
+          <li id="edit"><a href="#">EDIT</a></li>
+          <li id="search"><a href="search.html">SEARCH</a></li>
+          <li id="display"><a href="display.html">DISPLAY</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main>
+     <div class="main-container">
+      <div class="left-container">
+        <h1 class="name-title" id="name">CANADIAN LYNX</h1>
+        <div class="facts-container">
+          <span class="header">TYPE</span>
+          <span class="info-text" id="class">MAMMAL</span>
+          <span class="header">DIET</span>
+          <span class="info-text" id="diet">CARNIVORE</span>
+          <span class="header">STATUS</span>
+          <span class="info-text" id="status">LEAST CONCERN</span>
+          <span class="header">RANGE</span>
+          <div class="map-container">
+            <div class="" id="regions_div"></div>
+            <img src="../assets/images/antarctica.svg" alt="" class="antarctica no-display" id="map-antarctica">
+          </div>
+        </div>
+      </div>
+      <div class="right-container">
+        <div class="image">
+          <img src="../assets/images/animal_images/canadian_lynx.png" alt="" id="animal_image">
+        </div>
+        <a href="edit.html" class="button" id="edit-button">EDIT</a>
+      </div>
+     </div>
+    </main>
+
+    <script src="animal_display.js"></script>
+  </body>
+</html>
+ 

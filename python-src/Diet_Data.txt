@@ -1,0 +1,4 @@
+['Diet', '# of Animals']
+['Herbivore', 12]
+['Carnivore', 25]
+['Omnivore', 5]

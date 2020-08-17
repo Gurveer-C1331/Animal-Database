@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Animal Database</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src * https://www.gstatic.com/charts/loader.js 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="../assets/css/edit.css">
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+  </head>
+  <body>
+    <aside class="sidebar-container">
+      <h2 class="title">ANIMAL DATABASE</h2>
+      <nav>
+        <ul>
+          <li id="home"><a href="home.html">HOME</a></li>
+          <li id="stats"><a href="stats.html">STATS</a></li>
+          <li id="add"><a href="add.html">ADD</a></li>
+          <li id="remove"><a href="remove.html">REMOVE</a></li>
+          <li id="edit"><a href="#">EDIT</a></li>
+          <li id="search"><a href="search.html">SEARCH</a></li>
+          <li id="display"><a href="display.html">DISPLAY</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main>
+      <div class="main-container">
+        <div class="top-container">
+          <div class="input-container top-left">
+            <span class="sub-title">NAME</span>
+            <input type="text" placeholder="TYPE HERE" class="input-field" id="name-field" disabled>
+          </div>
+
+          <div class="input-container top-right">
+            <span class="sub-title">DIET</span>
+            <div class="radio-container">
+              <input type="radio" id="herbivore" name="diet" value="Herbivore">
+              <label for="herbivore">HERBIVORE</label>
+              <input type="radio" id="carnivore" name="diet" value="Carnivore">
+              <label for="carnivore">CARNIVORE</label>
+              <input type="radio" id="omnivore" name="diet" value="Omnivore">
+              <label for="omnivore">OMNIVORE</label>
+            </div>
+          </div>
+
+          <div class="input-container bottom-left">
+            <span class="sub-title">CLASS</span>
+            <a href="#" class="dropdown-button" id="class-dropdown-button">SELECT</a>
+            <div class="dropdown-content no-display" id="class-dropdown-content">
+              <a href="#">MAMMAL</a>
+              <a href="#">BIRD</a>
+              <a href="#">REPTILE</a>
+              <a href="#">AMPHIBIAN</a>
+              <a href="#">FISH</a>
+            </div>
+          </div>
+
+          <div class="input-container bottom-right">
+            <span class="sub-title">STATUS</span>
+            <a href="#" class="dropdown-button" id="status-dropdown-button">SELECT</a>
+            <div class="dropdown-content no-display" id="status-dropdown-content">
+              <a href="#">LEAST CONCERN</a>
+              <a href="#">NEAR THREATENED</a>
+              <a href="#">VULNERABLE</a>
+              <a href="#">ENDANGERED</a>
+              <a href="#">CRITICALLY ENDANGERED</a>
+              <a href="#">EXTINCT IN THE WILD</a>
+              <a href="#">EXTINCT</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-container">
+          <div class="left-container bottom-left">
+            <span class="sub-title">RANGE</span>
+            <div class="map-container">
+              <a href="#" id="map-button"><div id="regions_div"></div></a>
+            </div>
+          </div>
+
+          <div class="right-container bottom-right">
+            <div class="input-container">
+              <span class="sub-title">IMAGE</span>
+              <input type="text" placeholder="TYPE HERE" class="input-field image-input" id="image-field">
+            </div>
+
+            <div class="info-container" id="info-bar">
+              <img src="#" alt="">
+              <p> </p>
+            </div>
+
+            <div class="button-container">
+              <a href="#" class="button" id="confirm-button">CONFIRM</a>
+              <a href="#" class="button" id="clear-button">CLEAR</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="edit.js"></script>
+  </body>
+</html>
+ 

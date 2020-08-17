@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Animal Database</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src * https://www.gstatic.com/charts/loader.js 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="../assets/css/range_select.css">
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+  </head>
+  <body>
+    <div class="top-bar"></div>
+    
+    <div class="map-container">
+      <div id="regions_div"></div>
+    </div>
+
+    <div class="bottom-container">
+      <div class="radio-container">
+        <input type="checkbox" id="antarctica" name="antarctica" value="AQ">
+        <label for="antarctica">ANTARCTICA</label>
+      </div>
+      <div class="button-container">
+        <a href="#" class="button" id="plus-button"><img src="../assets/images/plus.svg" alt=""></a>
+        <a href="#" class="button" id="minus-button"><img src="../assets/images/minus.svg" alt=""></a>
+      </div>
+      <div class="sub-container">
+        <div class="info-container">
+          <img src="../assets/images/information.svg" alt="">
+          <p>Select a country/region and click + to add or - to remove</p>
+        </div>
+        <a href="#" class="button" id="done-button">DONE</a>
+      </div>
+    </div>
+
+    <script src="range_select.js"></script>
+  </body>
+</html>
+ 

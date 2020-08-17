@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Animal Database</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src * https://www.gstatic.com/charts/loader.js 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="../assets/css/stats.css">
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+  </head>
+  <body>
+    <aside class="sidebar-container">
+      <h2 class="title">ANIMAL DATABASE</h2>
+      <nav>
+        <ul>
+          <li id="home"><a href="home.html">HOME</a></li>
+          <li id="stats"><a href="stats.html">STATS</a></li>
+          <li id="add"><a href="add.html">ADD</a></li>
+          <li id="remove"><a href="remove.html">REMOVE</a></li>
+          <li id="edit"><a href="#">EDIT</a></li>
+          <li id="search"><a href="search.html">SEARCH</a></li>
+          <li id="display"><a href="display.html">DISPLAY</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main>
+     <div class="main-container">
+        <div class="top-container">
+          <div class="population-container">
+            <span class="title-smaller">DATABASE POPULATION</span>
+            <span class="population-text" id="population-text"></span>
+          </div>
+          <div class="map-container">
+            <div id="regions_div"></div>
+            <div class="antarctica-container">
+              <span>ANTARCTICA:</span>
+              <span id="antarctica-population">0</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-container">
+          <div class="graph-container">
+            <span class="title-smaller">DIET</span>
+            <div id="diet-chart-div"></div>
+          </div>
+          <div class="graph-container">
+            <span class="title-smaller">CLASS</span>
+            <div id="class-chart-div"></div>
+          </div>
+          <div class="graph-container">
+            <span class="title-smaller">STATUS</span>
+            <div id="status-chart-div"></div>
+          </div>
+        </div>
+     </div>
+    </main>
+
+    <script src="stats.js"></script>
+  </body>
+</html>
+ 
