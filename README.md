@@ -1,5 +1,5 @@
 # Animal-Database
-Animal Database is an Electron based application that holds multiple animal entries where a user can learn facts about a specific animal. The application is designed so that the user is able to enter in new animals into the application to grow the database of animals. There are multiple pages of the application:
+Animal Database is an Electron based application that holds multiple animal entries where a user can learn facts about a specific animal. The application is designed so that the user is able to enter in new animals into the application to grow the database of animals. There are multiple pages of the application
 -**Home:** the landing page of the application
 -**Stats:** this page shows different stats like the population of the database, a geographic map displaying the number of animal in that region based on the total entries in the database, and three pie charts displaying a representation of the database based on the different categories (Diet, Class, Status)
 - **Add:** this page allows the user to add a new animal entry to the database by entering in the different data required
