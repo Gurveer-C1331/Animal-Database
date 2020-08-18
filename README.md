@@ -22,4 +22,4 @@ Concepts:
 - Fetch in Javascript
 - "await", "async" function and Promise
 
-Created: June/July 2020
+Created: June - July 2020
