@@ -16,7 +16,7 @@ This project got me to learn new languages: Javascript, CSS, HTML; work with the
 
 **"node-fetch" and "python-shell" packages was used, install as dev dependency**
 
-Concepts:
+Concepts/Skills Applied:
 - Flask Framework
 - Google's Chart Library
 - Fetch in Javascript
